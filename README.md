@@ -18,5 +18,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - react-router-dom
 - axios
 - http-proxy-middleware (api 요청시 cors 문제 해결 위함)
-- 스타일링
-  -- 디자인이 많이 필요해 보이지 않아 스타일 라이브러리 없이 css만으로 스타일링.
+- 디자인이 많이 필요해 보이지 않아 스타일 라이브러리 없이 css만으로 스타일링.
