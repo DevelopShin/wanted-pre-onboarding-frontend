@@ -8,10 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - `npm start`
 
 # 데모영상
-[![데모dudtkd](http://img.youtube.com/vi/mCFHlX2jFnk/0.jpg)](https://youtu.be/mCFHlX2jFnk)
-[![이미지 텍스트]](https://youtu.be/P2Jdr2rOKcE)
+[![테스트영상]([http://img.youtube.com/vi/mCFHlX2jFnk/0.jpg](https://user-images.githubusercontent.com/73675549/231036386-6167a4c9-a404-42a6-9a2b-3c8ca229c4bf.PNG))](https://youtu.be/mCFHlX2jFnk)
 
-[배포링크](https://developshin.github.io/wanted-pre-onboarding-frontend).
+
 
 ### 깃 배포로 인한 기본구조변경 사항
 
