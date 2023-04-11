@@ -1,0 +1,132 @@
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+.home div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.home div a {
+  margin: 0 auto;
+}
+.home div button {
+  width: 120px;
+  height: 40px;
+  background-color: #7ac142;
+  border: solid 1px #7ac142;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 1rem;
+}
+.navbar {
+  width: 100%;
+  height: 50px;
+  border-bottom: 3px solid #7ac142;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  /* text-align: center; */
+}
+
+.navbar h1 {
+  font-size: 25px;
+  display: inline-block;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #7ac142;
+  letter-spacing: 3px;
+}
+
+.navbar button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(25, 2, 235, 0.685);
+  border: solid 1px #4eaf03;
+  border-radius: 4px;
+  color: #fff;
+  padding: 4px 8px;
+}
+
+.todo {
+  margin: 0 auto;
+  max-width: 420px;
+  min-width: 310px;
+  padding: 40px 20px;
+  margin-top: 70px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #7ac142;
+  transition: all 0.2s ease-out;
+  transition-delay: 0.2s;
+}
+
+.todo .edit-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.todo > div > button {
+  cursor: pointer;
+
+  width: 100px;
+  border: solid 1px #7ac142;
+  background-color: #7ac142;
+}
+.todo > .edit-form input {
+  width: 100%;
+  height: 30px;
+  border: solid 1px #7ac142;
+}
+.todo > div > input:focus {
+  outline: 2px solid #7ac142;
+}
+
+.todo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.todo ul li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* .todo ul li label {
+  width: 100%;
+} */
+
+.todo ul li .btc-gr {
+  display: flex;
+  gap: 10px;
+}
+.btc-gr button {
+  width: 50px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.todo ul li button.edit {
+  color: #fff;
+  border: solid 1px #426ec1;
+  background-color: #426ec1;
+}
+.todo ul li button.remove {
+  color: #fff;
+  border: solid 1px #c14242;
+  background-color: #c14242;
+}
+
+.item .edit-form input {
+  width: 100%;
+}
+.item .edit-form button {
+  border: solid 1px #94cc69;
+}

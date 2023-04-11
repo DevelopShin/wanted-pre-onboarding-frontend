@@ -1,0 +1,129 @@
+.sign-wrap {
+  width: 420px;
+  padding: 40px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #7ac142;
+  float: left;
+  transition: all 0.2s ease-out;
+  transition-delay: 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.sign-wrap h1 {
+  text-align: left;
+  color: #7ac142;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.sign-wrap form {
+  width: 100%;
+  margin-top: 40px;
+}
+.sign-wrap * {
+  display: block;
+}
+form > input {
+  outline: none;
+  margin-top: 50px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  padding-left: 0;
+  padding-bottom: 8px;
+  width: 100%;
+  box-shadow: none;
+  transition: all 0.1s ease-out;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.726);
+}
+
+form.wrapper-box > input:focus:invalid {
+  border-bottom: 1px solid #ef6161;
+}
+.sign-wrap form.wrapper-box ::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.sign-wrap form.wrapper-box :-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.sign-wrap form.wrapper-box ::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.sign-wrap form.wrapper-box :-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.sign-wrap form.wrapper-box button {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 50px;
+  border: 2px solid #7ac142;
+  background: #7ac142;
+  border-radius: 25px;
+  padding: 3px 12px 5px 12px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  transition: all 0.1s ease-out;
+}
+.sign-wrap form button.btn-disabled {
+  cursor: not-allowed;
+  background: #a8a8a8;
+  border: 2px solid #a8a8a8;
+}
+
+.sign-wrap form.wrapper-box button:hover {
+  color: #7ac142;
+  background: #fff;
+  border: 2px solid #7ac142;
+}
+.sign-wrap form button.btn-disabled:hover {
+  background: #a8a8a8;
+  color: #fff;
+  border: 2px solid #a8a8a8;
+}
+
+.sign-wrap form.wrapper-box button:active {
+  box-shadow: none;
+}
+.sign-wrap a {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 5px 0;
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
+  transition: all 0.1s ease-out;
+  text-decoration: none;
+}
+.sign-wrap a:hover {
+  transition: all 0s ease-out;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+.sign-wrap form div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-wrap form label {
+  display: block;
+  height: 14px;
+  font-size: 12px;
+  color: #ef6161;
+}
