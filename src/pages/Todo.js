@@ -25,7 +25,6 @@ function Todo() {
     getTodos();
   }, []);
   const submitCreate = useCallback(async () => {
-    console.log(newTodo);
     await axios
       .post('api/todos/', { todo: newTodo })
       .then((res) => {

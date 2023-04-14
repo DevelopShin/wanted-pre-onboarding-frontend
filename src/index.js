@@ -9,7 +9,6 @@ const token = localStorage.getItem('access_token');
 // axios.defaults.headers.post['Content-Type'] = 'application/json';
 // axios.defaults.headers['Access-Control-Allow-Origin'] = '*';
 // axios.defaults.withCredentials = true;
-console.log('index.js>: ', token);
 axios.defaults.headers.common['Authorization'] = token
   ? `Bearer ${token}`
   : null;

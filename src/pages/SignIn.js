@@ -30,7 +30,6 @@ function SignIn(props) {
           password: password,
         })
         .then((res) => {
-          console.log(res.data);
           if (res.data.access_token) {
             localStorage.setItem('access_token', res.data.access_token);
             setAccessToken(res.data.access_token);
