@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `npm install`
 
-`npm start`
+`npm run start`
 
 ### 테스트 youtube
 
