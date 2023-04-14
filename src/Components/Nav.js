@@ -11,7 +11,7 @@ function Nav() {
   return (
     <nav className="navbar">
       <Link to="/">
-        <h1>Todo</h1>
+        <h1>TODO</h1>
       </Link>
       {isAuth && <button onClick={logout}>로그아웃</button>}
     </nav>

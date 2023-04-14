@@ -16,6 +16,7 @@
   width: 120px;
   height: 40px;
   background-color: rgba(25, 2, 235, 0.685);
+  border: 0;
   color: #fff;
   padding: 4px 8px;
   font-weight: bold;
@@ -30,24 +31,24 @@
   justify-content: center;
   align-items: center;
   user-select: none;
-  background-color: #343a40;
-  /* text-align: center; */
+  border-bottom: solid 2px #7ac142;
 }
 
 .navbar h1 {
-  font-size: 25px;
+  font-size: 26px;
   display: inline-block;
   padding: 0 !important;
   margin: 0 !important;
   color: #7ac142;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .navbar button {
   position: absolute;
   top: 16px;
   right: 10px;
-  background-color: rgba(25, 2, 235, 0.685);
+  background-color: #426ec1;
   border: solid 1px #4eaf03;
   border-radius: 4px;
   color: #fff;
